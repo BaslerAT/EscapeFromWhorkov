@@ -2,3 +2,9 @@ js/config.json
 js/node_modules
 js/package-lock.json
 python/.env
+python/config.json
+python/ballistics.html
+*__pycache__
+python/log/log_config.yml
+python/log/whorkov_app.log
+*.mp3
