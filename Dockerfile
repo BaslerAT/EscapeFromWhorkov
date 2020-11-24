@@ -1,8 +1,10 @@
-FROM centos8
+FROM arm32v6/alpine:3.5
 
-RUN yum install -y python
+RUN apk update
 
-RUN pip install discord.py
+RUN apk add python3
+
+RUN pip3 install discord.py
 
 COPY python .
 
